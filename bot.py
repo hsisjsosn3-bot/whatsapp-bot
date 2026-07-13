@@ -67,7 +67,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 load_dotenv()
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8656203323:AAF9x8BVHJ7_tXLnl4xq7penEl8UYESIo34")
 SESSION_FILE = os.getenv("SESSION_FILE", "wa_session.pkl")
 POLL_INTERVAL = float(os.getenv("POLL_INTERVAL", "5"))
 HEADLESS = os.getenv("HEADLESS", "true").lower() in ("1", "true", "yes")
